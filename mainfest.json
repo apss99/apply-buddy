@@ -3,5 +3,8 @@
   "name": "Apply Buddy",
   "version": "1.0.0",
   "description": "A Chrome extension auto-fills a google sheet with job details, so you can keep track of job applications faster.",
-  "icons": {}
+  "icons": {},
+  "action": {
+    "default_popup": "popup.html"
+  }
 }
