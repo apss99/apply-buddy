@@ -2,9 +2,6 @@
   "manifest_version": 3,
   "name": "Apply Buddy",
   "version": "1.0.0",
-  "description": "A Chrome extension that helps you keep track of job applications by auto-filling a google sheet with the job details.",
-  "icons": {
-    "48": "images/icon-48.png",
-    "128": "images/icon-128.png"
-  }
+  "description": "A Chrome extension auto-fills a google sheet with job details, so you can keep track of job applications faster.",
+  "icons": {}
 }
