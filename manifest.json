@@ -4,11 +4,12 @@
   "version": "1.0.0",
   "description": "A Chrome extension which auto-fills job details onto google sheets, so you can keep track of job applications faster.",
   "icons": {
-    "16": "icon4.png",
-    "48": "icon4.png",
-    "128": "icon4.png"
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
   },
-  "action": {
-    "default_popup": "popup.html"
-  }
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "permissions": ["sidePanel", "storage", "activeTab", "identity"]
 }
