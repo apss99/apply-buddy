@@ -1,7 +1,7 @@
 {
   "name": "apply-buddy",
   "version": "1.0.0",
-  "description": "A chrome extention which auto-fills job details onto a google sheets document",
+  "description": "A chrome extension which auto-fills job details onto a google sheets document",
   "keywords": [],
   "author": "apss99",
   "license": "ISC",
