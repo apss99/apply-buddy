@@ -1,0 +1,24 @@
+{
+  "name": "apply-buddy",
+  "version": "1.0.0",
+  "description": "A chrome extention which auto-fills job details onto a google sheets document",
+  "keywords": [],
+  "author": "apss99",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "https://github.com/apss99/apply-buddy#readme",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.2.2",
+    "typescript": "^5.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apss99/apply-buddy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apss99/apply-buddy/issues"
+  }
+}

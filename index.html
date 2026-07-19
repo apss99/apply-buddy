@@ -10,6 +10,7 @@
     <!--Add buttons to initiate auth sequence and sign out-->
     <button id="authorize_button" onclick="handleAuthClick()">Authorize</button>
     <button id="signout_button" onclick="handleSignoutClick()">Sign Out</button>
+    <button onclick="addRow()">Add Row</button>
 
     <pre id="content" style="white-space: pre-wrap"></pre>
 
@@ -146,6 +147,31 @@
           "Name, Major:\n",
         );
         document.getElementById("content").innerText = output;
+      }
+
+      async function addRow() {
+        try {
+          await gapi.client.sheets.spreadsheets.values.append({
+            spreadsheetId: "placeholder",
+            range: "JobApplications!A:E",
+            valueInputOption: "USER_ENTERED",
+            insertDataOption: "INSERT_ROWS",
+            resource: {
+              values: [
+                [
+                  "Junior Software Engineer",
+                  "Applied",
+                  "https://linkedin.com",
+                  new Date().toString(),
+                ],
+              ],
+            },
+          });
+          document.getElementById("content").innerText =
+            "Row added successfully!";
+        } catch (err) {
+          document.getElementById("content").innerText = err.message;
+        }
       }
     </script>
     <script

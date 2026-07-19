@@ -11,5 +11,9 @@
   "side_panel": {
     "default_path": "sidepanel.html"
   },
-  "permissions": ["sidePanel", "storage", "activeTab", "identity"]
+  "permissions": ["sidePanel", "storage", "activeTab", "identity"],
+  "oauth2": {
+    "client_id": "cdgmbankkcbidbcbeeohabmclbfelidd.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/spreadsheets"]
+  }
 }
