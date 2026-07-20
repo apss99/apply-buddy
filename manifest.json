@@ -13,7 +13,7 @@
   },
   "permissions": ["sidePanel", "storage", "activeTab", "identity"],
   "oauth2": {
-    "client_id": "cdgmbankkcbidbcbeeohabmclbfelidd.apps.googleusercontent.com",
+    "client_id": "698868351089-jq70doutk8tlnusm9u5o4jfg8au3pvlm.apps.googleusercontent.com",
     "scopes": ["https://www.googleapis.com/auth/spreadsheets"]
   }
 }
