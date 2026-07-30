@@ -12,8 +12,9 @@
     "default_path": "sidepanel.html"
   },
   "permissions": ["sidePanel", "storage", "activeTab", "identity"],
+  "host_permissions": ["https://www.googleapis.com/*"],
   "oauth2": {
-    "client_id": "698868351089-jq70doutk8tlnusm9u5o4jfg8au3pvlm.apps.googleusercontent.com",
+    "client_id": "698868351089-n5dgcbddqf6qcgidhpra2158h7tha995.apps.googleusercontent.com",
     "scopes": ["https://www.googleapis.com/auth/spreadsheets"]
   }
 }

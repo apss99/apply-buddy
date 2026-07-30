@@ -8,10 +8,11 @@
   "type": "module",
   "homepage": "https://github.com/apss99/apply-buddy#readme",
   "scripts": {
-    "build": "tsc"
+    "build": "esbuild src/sidepanel.ts --bundle --outfile=dist/sidepanel.js && cp public/manifest.json public/sidepanel.html public/sidepanel.css public/icon.png dist/"
   },
   "devDependencies": {
     "@types/chrome": "^0.2.2",
+    "esbuild": "^0.28.1",
     "typescript": "^5.9.0"
   },
   "repository": {
